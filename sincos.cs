@@ -87,7 +87,7 @@ namespace sincos
             ee = Graphics.FromImage(b);
             Pen ppp = new Pen(Color.FromArgb(0, 0, 0));
 
-            for (int a = 0; a < 8; a++) ee.DrawLine(ppp, new Point((int)(dsin[a]*50.00)+50, (int)(dcos[a]*50.00)+50), new Point((int)(dsin[a + 1]*50.00)+50, (int)(dcos[a + 1]*50.00)+50));
+            for (int a = 0; a < 8; a++) ee.DrawLine(ppp, new Point((int)(dsin[a]*150.00)+250, (int)(dcos[a]*150.00)+250), new Point((int)(dsin[a + 1]*150.00)+250, (int)(dcos[a + 1]*150.00)+250));
             ppp.Dispose();
             
             ee.Dispose();
